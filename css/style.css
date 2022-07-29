@@ -124,12 +124,36 @@ html, body {
     border-radius: 20px;
 }
 
-.icon-img {
+.icon-img .playbutton-icon{
     position: absolute;
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .pulse {
+    animation: pulse-animation 2s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgb(223, 205, 8);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(223, 205, 8, 0.526);
+    }
+  }
 
 .banner-left-content p {
     color: #888;
