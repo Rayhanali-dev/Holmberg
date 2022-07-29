@@ -115,10 +115,10 @@
 }
 
 .icon-img {
-    position: absolute;
-    top: 53%;
-    left: 53%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .banner-left-content p {
@@ -423,7 +423,11 @@
 
     .icon-img {
         width: 150px;
-        height: 150;
+        height: 150px;
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .icon-img img {
@@ -685,6 +689,7 @@
     .icon-img {
         width: 120px;
         height: 120;
+        left: 53%;
     }
 
     .icon-img img {
